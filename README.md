@@ -1,6 +1,6 @@
 # Classe EIC-BCC-TCC
 
-Define um modelo LaTeX para TCCs do BCC Cefet/RJ. O projeto possui os seguintes arquivos:
+Define um modelo LaTeX para TCCs do BCC UFCIRJ. O projeto possui os seguintes arquivos:
 - **figuras/figure.png**: Exemplo de figura a ser utilizada no texto;
 - **ficha.pdf**: Exemplo de arquivo de ficha catalográfica contendo as informações necessárias sobre solicitação de ficha para a biblioteca;
 - **eic-bcc-tcc.cls**: Classe para escrita do TCC em LaTeX;

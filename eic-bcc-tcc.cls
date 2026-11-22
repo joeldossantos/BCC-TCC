@@ -1,11 +1,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % LaTeX Class for Bachelor's Thesis
-% Cefet/RJ - Computer Science undergraduate course
-% Version: 2025/06/26
+% UFCIRJ - Computer Science undergraduate course
+% Version: 2026/11/21
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{eic-bcc-tcc}[2025/06/27 Cefet/RJ EIC BCC]
+\ProvidesClass{eic-bcc-tcc}[2026/11/21 UFCIRJ EIC BCC]
 
 % Base class: report with 12pt font and A4 paper
 \LoadClass[12pt,a4paper]{report}
@@ -287,7 +287,7 @@
     \bfseries\large RESUMO
   \end{center}
   \vspace{10pt}
-  \@studentlist. \textbf{\@title}. \@date. \pageref{LastPage}. Trabalho de Conclusão de Curso – Centro Federal de Educação Tecnológica Celso Suckow da Fonseca. Rio de Janeiro. Cidade, \@date.\\[1cm]
+  \@studentlist. \textbf{\@title}. \@date. \pageref{LastPage}. Trabalho de Conclusão de Curso – Universidade Federal de Ciência e Inovação do Rio de Janeiro. Rio de Janeiro. Cidade, \@date.\\[1cm]
   \thispagestyle{empty}
 }
 {
@@ -306,7 +306,7 @@
   \vspace{10pt}
   \ifdef{\@studentlisten}%
   {\@studentlisten}{\@studentlist}.
-  \textbf{\@englishtitle}. \@date. \pageref{LastPage}. Undergratuade Thesis – Federal Center of Technological Education. Rio de Janeiro. City, \@date.\\[1cm]
+  \textbf{\@englishtitle}. \@date. \pageref{LastPage}. Undergratuade Thesis – Federal University of Science and Innovation of Rio de Janeiro. Rio de Janeiro. City, \@date.\\[1cm]
   \thispagestyle{empty}
 }
 {
@@ -324,7 +324,7 @@
 \begin{titlepage}
   \begin{center}
     \bfseries\large
-    CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA CELSO SUCKOW DA FONSECA\\[1.5em]
+    UNIVERSIDADE FEDERAL DE CIÊNCIA E INOVAÇÃO DO RIO DE JANEIRO\\[1.5em]
     COORDENAÇÃO DO CURSO DE BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO\\\vfill
     
     \MakeUppercase{\@studentlines}\\\vfill
@@ -350,7 +350,7 @@
     \normalfont\normalsize
     \begin{minipage}{0.5\textwidth}
       \justifying\noindent
-      Trabalho de Conclusão de Curso apresentado como requisito parcial à obtenção do título de Bacharel em Ciência da Computação, da Coordenação do curso de Bacharelado em Ciência da Computação, do Centro Federal de Educação Tecnológica Celso Suckow da Fonseca.\\[1.5cm]
+      Trabalho de Conclusão de Curso apresentado como requisito parcial à obtenção do título de Bacharel em Ciência da Computação, da Coordenação do curso de Bacharelado em Ciência da Computação, da Universidade Federal de Ciência e Inovação do Rio de Janeiro.\\[1.5cm]
       
       
       \noindent\@orientadorfull
